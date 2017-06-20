@@ -2,9 +2,10 @@
   "name": "witaitest",
   "version": "1.0.0",
   "description": "En chatbot app for Tine, dette er en testapplikasjon",
-  "main": "index.js",
+  "main": "lib/sverrebot.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "start": "set BOT_API_KEY=xoxb-201251143606-onrMu4nFcLjlWPOmwGUvVvsY & node bin/bot.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/haakotsm/TineBot#readme",
   "dependencies": {
-    "node-wit": "^4.2.0"
+    "node-wit": "^4.2.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.1.8"
   }
 }
