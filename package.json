@@ -1,0 +1,28 @@
+{
+  "name": "witaitest",
+  "version": "1.0.0",
+  "description": "En chatbot app for Tine, dette er en testapplikasjon",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haakotsm/TineBot.git"
+  },
+  "keywords": [
+    "ChatBot",
+    "wit.ai",
+    "Tine",
+    "Bouvet"
+  ],
+  "author": "Håkon Smørvik, Jarle Mathiesen, Stian Westvig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haakotsm/TineBot/issues"
+  },
+  "homepage": "https://github.com/haakotsm/TineBot#readme",
+  "dependencies": {
+    "node-wit": "^4.2.0"
+  }
+}
