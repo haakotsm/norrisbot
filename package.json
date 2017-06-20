@@ -5,7 +5,7 @@
   "main": "lib/sverrebot.js",
   "scripts": {
     "test": "npm start",
-    "start": "set BOT_API_KEY=xoxb-201251143606-onrMu4nFcLjlWPOmwGUvVvsY & node bin/bot.js"
+    "start": "node bin/bot.js"
   },
   "repository": {
     "type": "git",
