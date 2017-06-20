@@ -5,7 +5,7 @@
   "main": "lib/sverrebot.js",
   "scripts": {
     "test": "npm start",
-    "start": "node bin/bot.js"
+    "start": "set BOT_API_KEY=xoxb-201251143606-xKF5N7OhVAFzGi4rSpL1kNAk & node bin/bot.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/haakotsm/TineBot#readme",
   "dependencies": {
-    "node-wit": "^4.2.0",
-    "slackbots": "^0.3.0",
+    "slackbots": "^1.0.2",
     "sqlite3": "^3.1.8"
   }
 }

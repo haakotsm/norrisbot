@@ -2,17 +2,16 @@
  * Created by hakon.smorvik on 20.06.2017.
  */
 'use strict';
+let SverreBot = require('../lib/sverrebot');
 
-var SverreBot = require('../lib/sverrebot');
+let token = process.env.BOT_API_KEY;
+let dbPath = process.env.BOT_DB_PATH;
+let name = process.env.BOT_NAME;
 
-var token = process.env.BOT_API_KEY;
-var dbPath = process.env.BOT_DB_PATH;
-var name = process.env.BOT_NAME;
-
-var sverrebot = new SverreBot({
+let sverrebot = new SverreBot({
     token: token,
     dbPath: dbPath,
-    name: name
+    name: name || 'sverrebot'
 });
 
 sverrebot.run();
