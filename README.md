@@ -1,2 +1,1 @@
-# TineBot
-ChatBot for Tine
+
