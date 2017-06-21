@@ -11,7 +11,7 @@ let name = process.env.BOT_NAME;
 let sverrebot = new SverreBot({
     token: token,
     dbPath: dbPath,
-    name: name || 'sverrebot'
+    name: name || 'norrisbot'
 });
 
 sverrebot.run();
