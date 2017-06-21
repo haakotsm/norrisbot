@@ -1,28 +1,22 @@
 {
-  "name": "witaitest",
+  "name": "norrisbot",
   "version": "1.0.0",
-  "description": "En chatbot app for Tine, dette er en testapplikasjon",
-  "main": "lib/sverrebot.js",
-  "scripts": {
-    "test": "npm start",
-    "start": "node bin/bot.js"
-  },
+  "description": "En chatbot for slack",
+  "main": "bin/bot.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haakotsm/TineBot.git"
+    "url": "git+https://github.com/haakotsm/norrisbot.git"
   },
   "keywords": [
     "ChatBot",
-    "wit.ai",
-    "Tine",
-    "Bouvet"
+    "slack"
   ],
-  "author": "Håkon Smørvik, Jarle Mathiesen, Stian Westvig",
+  "author": "Håkon Smørvik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haakotsm/TineBot/issues"
+    "url": "https://github.com/haakotsm/norrisbot/issues"
   },
-  "homepage": "https://github.com/haakotsm/TineBot#readme",
+  "homepage": "https://github.com/haakotsm/norrisbot#readme",
   "dependencies": {
     "slackbots": "^1.0.2",
     "sqlite3": "^3.1.8"
